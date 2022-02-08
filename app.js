@@ -1,9 +1,19 @@
-const player = {
-  name: "gibo",
-  sayHello: function(otherPersonName) {
-    console.log(this.name + ": " + "Hello! " + otherPersonName + " nice to meet you!");
+const calculator = {
+  add: function(l, r) {
+    console.log(l + r);
   },
-};
+  minus: function(l, r) {
+    console.log(l - r);
+  },
+  divide: function(l, r) {
+    console.log(l / r);
+  },
+  power: function(l, r) {
+    console.log(l ** r);
+  }
+}
 
-player.sayHello("lynn");
-player.sayHello("nico");
+calculator.add(1, 2);
+calculator.minus(1, 2);
+calculator.divide(1, 2);
+calculator.power(3, 2);
