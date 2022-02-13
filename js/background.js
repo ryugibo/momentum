@@ -4,7 +4,6 @@ const images = [
   "pablo-martinez-AdagxtVKRWE-unsplash.jpg",
 ];
 
-const bgImage = document.createElement("img");
 const chosenImage = images[Math.floor(Math.random() * images.length)];
-bgImage.src = `img/${chosenImage}`;
-document.body.appendChild(bgImage);
+document.body.style.backgroundImage = `url(img/${chosenImage}) `;
+document.body.style.backgroundSize = "cover";
