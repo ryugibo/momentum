@@ -8,14 +8,17 @@
     <title>Hello! From HTML!</title>
   </head>
   <body>
-    <h2 id="clock">00:00:00</h2>
+    <div>
+      <h2 id="clock">00:00:00</h2>
+    </div>
     <form id="login-form" class="hidden">
       <input required maxlength="15" type="text" placeholder="What is your name?" />
       <input type="submit" value="Log In" />
     </form>
     <h1 id="greeting" class="hidden"></h1>
     <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
+      <h2>TODO</h2>
+      <input type="text" placeholder="Write a To Do and Press Enter" required style="width: 200px;" />
     </form>
     <ul id="todo-list"></ul>
     <div id="quote">

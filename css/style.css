@@ -1,3 +1,66 @@
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+input[type="text"] {
+  text-align: center;
+  background: transparent;
+  border: none;
+  color: white;
+}
+
 .hidden {
   display: none;
+}
+
+#clock {
+  font-size: 100px;
+}
+
+#weather {
+  position: fixed;
+  top: 20px;
+  left: 30px;
+}
+
+font {
+  color: white;
+}
+
+#quote {
+  position:absolute;
+  bottom:2px;
+}
+
+#todo-form {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+}
+#todo-form h2 {
+  text-align: center;
+}
+
+#todo-list {
+  position: fixed;
+  top: 100px;
+  right: 30px;
+}
+
+#todo-list li {
+  list-style-type: none;
+}
+
+#todo-list button {
+  width: 200px;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 5px;
+  outline: none;
 }
